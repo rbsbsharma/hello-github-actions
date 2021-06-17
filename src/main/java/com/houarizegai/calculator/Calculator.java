@@ -72,7 +72,7 @@ public class Calculator {
         window.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
         window.setLocationRelativeTo(null); // Move window to center
 
-        comboTheme = initCombo(new String[]{"Simple", "Colored", "DarkTheme"}, 230, 50, "Theme", themeSwitchEventConsumer);
+        comboTheme = initCombo(new String[]{"Simple", "Colored", "DarkTheme"}, 230, 70, "Theme", themeSwitchEventConsumer);
 
         comboCalcType = initCombo(new String[]{"Standard", "Scientific"}, 20, 30, "Calculator type", calcTypeSwitchEventConsumer);
 
